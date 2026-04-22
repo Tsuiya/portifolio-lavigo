@@ -65,7 +65,7 @@ const ProjectDetails = () => {
                       <video 
                         src={item.src} 
                         controls 
-                        poster={item.thumbnail} 
+                        poster={(item as any).thumbnail} 
                         className="project-main-video" 
                         preload="metadata"
                       />

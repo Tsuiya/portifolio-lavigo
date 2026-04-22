@@ -9,7 +9,6 @@ const ContactPage: React.FC = () => {
     
     const formData = new FormData(e.currentTarget);
     const name = formData.get('name') as string;
-    const whatsapp = formData.get('whatsapp') as string;
     const project = formData.get('project') as string;
     const userMessage = formData.get('message') as string;
 
